@@ -4,7 +4,7 @@ title: "Resume"
 
 # Education
 
--   Graduated from School of Bakery Science
+-   Graduated from School of Bakery Science....................
 
 # Publications
 
