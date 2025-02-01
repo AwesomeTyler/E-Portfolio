@@ -1,26 +1,32 @@
 ---
-title: "Your E-Portfolio"
-image: images/SAMPLE.png
+title: "Tyler Zhang"
 about:
-  template: trestles
-  image-width: 20em
-  links: 
-    - icon: linkedin
-      text: LinkedIn
-      href: https://www.linkedin.com/in/ramon-melser-666932129/
-    - icon: twitter
-      text: Twitter/X
-      href: https://x.com/MelserRamon
+  template: jolla
+  image: images/headshot.png
+  links:
+    - icon: youtube
+      text: Youtube
+      href: https://www.youtube.com/@zhangtyler6530
     - icon: github
-      text: GitHub
-      href: https://github.com/ramonmelser
-    - icon: envelope-at
-      text: Email
-      href: mailto:melser@student.ubc.ca
+      text: Github
+      href: https://github.com
+format:
+  html:
+    toc: false
 ---
 
-I'm putting a video here
+Finley Malloc is the Chief Data Scientist at Wengo Analytics. When not innovating on data platforms, Finley enjoys spending time unicycling and playing with her pet iguana. <br><br>
 
-<iframe width="780" height="500" src="https://www.youtube.com/embed/ktmIr887zKc" title="Webpage example">
+## Education
 
-</iframe>
+University of British Columbia | Vancouver, BC <br> Master in Geomatics and Environmental Management | 2024 - 2025
+
+University of Victoria | Victoria, BC<br> B.Sc in Earth and Ocean Science | 2016 - 2021<br><br>
+
+## Experience
+
+Sonar Data Analyst | AquaCoustic Remote Technologies, Inc. | 2021 - 2024
+
+Research Assistant | Fisheries and Oceans Canada | 2021
+
+Research Assistant | Fisheries and Oceans Canada | 2019
