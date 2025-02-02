@@ -1,39 +1,88 @@
 ---
-title: "Resume"
+title: " "
+format: 
+  html:
+     toc: false
 ---
+
 
 # Education
 
--   Graduated from School of Bakery Science....................
+-   <span style="font-size: 18px;">
+<strong>University of British Columbia</strong> <br>
+Master of Geomatics for Environmental Management<br><br>
+</span>
 
-# Publications
+-   <span style="font-size: 18px;">
+<strong>University of Victoria</strong><br>
+B.Sc in Earth and Ocean Science<br>
+</span>
 
-*Peer-reviewed publications:*
+<br><br>
 
--   List any peer-reviewed publications here.
 
-*Reports:*
 
--   List any non-peer reviewed materials you'd like to share here.
+# Work Experience
+-   <span style="font-size: 18px;">
+<strong>Sonar Data Analyst and Software Developer	</strong> <span style="margin-right: 240px;"></span>   July 2021 – Jan 2024 <br>
+AquaCoustic Remote Technologies Inc. <span style="margin-right: 335px;"></span> 
+Vancouver, BC
 
-# Conferences & Talks
+</span> 
+<br>
 
-*Invited Talks*
+ <span style="font-size: 18px;"><span style="margin-right: 55px;"></span><strong>-</strong> Analyzed field-collected trunk sewer sonar data combined with GIS data to create accurate</span>
+  <span style="font-size: 18px;"><span style="margin-right: 65px;"></span>  maps, plots, and technical reports for infrastructure condition assessment.</span>
 
--   If you've been invited to speak in a professional setting, list that here.
+ <span style="font-size: 18px;"><span style="margin-right: 53px;"></span><strong>-</strong> Supported the development and maintenance of GIS databases and optimized data processing</span>
+  <span style="font-size: 18px;"><span style="margin-right: 65px;"></span>software to improve efficiency and accuracy</span>
+<br><br> <br><br><br>  
 
-*Conference Presentations*
 
--   If the presentation was at a conference, list them here.
 
-# Awards & Honors
+-   <span style="font-size: 18px;">
+<strong>Data Analyst</strong> <span style="margin-right: 450px;"></span>January 2021 - May 2021<br>
+Fisheries and Oceans Canada<span style="margin-right: 430px;"></span> 
+Victoria, BC
 
--   List any scholarships, bursaries, etc.
+</span> 
+<br>
 
-# Teaching Assistantships
+ 
+ <span style="font-size: 18px;"><span style="margin-right: 55px;"></span><strong>-</strong>Developed python scripts for ocean water property data processing and provided accurate</span>
+  <span style="font-size: 18px;"><span style="margin-right: 62px;"></span>data and analysis for ocean environmental research.</span>
 
--   List any TA positions you may have held.
 
-# Institutional Service
+ <span style="font-size: 18px;"><span style="margin-right: 53px;"></span><strong>-</strong>Developed and implemented automated QA/QC procedure for ocean water property data.</span>
 
--   Volunteering etc.
+<br><br> <br><br><br>  
+
+
+-   <span style="font-size: 18px;">
+<strong>Research Assistant</strong> <span style="margin-right: 380px;"></span>   June 2019 - September 2019 <br>
+Fisheries and Oceans Canada<span style="margin-right: 435px;"></span> 
+Victoria, BC
+
+</span> 
+<br>
+
+ 
+ <span style="font-size: 18px;"><span style="margin-right: 55px;"></span><strong>-</strong>Processed field collected fisheries acoustics data using developed MATLAB scripts. </span>
+ 
+
+ <span style="font-size: 18px;"><span style="margin-right: 53px;"></span><strong>-</strong> Provided analysis and visualizations for juvenile salmon migration studies.</span>
+
+<br><br>
+
+
+# Competencies
+
+ <span style="font-size: 18px;"><span style="margin-right: 53px;"></span><strong>Programming:</strong> Proficient in Python, R, and Swift with experience in data analysis, statistical modeling, and app development.</span><br>
+ 
+ <span style="font-size: 18px;"><span style="margin-right: 53px;"></span><strong>Software:</strong> Proficient in ArcGIS Pro, QGIS, Cloudcompare</span><br>
+ 
+  <span style="font-size: 18px;"><span style="margin-right: 53px;"></span><strong>Communication:</strong> Excellent communication skills developed through close collaboration with clients and team members, effectively identifying and addressing their needs.</span><br>
+  
+
+
+

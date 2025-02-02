@@ -4,6 +4,9 @@ about:
   template: jolla
   image: images/headshot.png
   links:
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/tyler-zhang-4a2560281/
     - icon: youtube
       text: Youtube
       href: https://www.youtube.com/@zhangtyler6530
@@ -15,18 +18,22 @@ format:
     toc: false
 ---
 
-Finley Malloc is the Chief Data Scientist at Wengo Analytics. When not innovating on data platforms, Finley enjoys spending time unicycling and playing with her pet iguana. <br><br>
+<span style="font-size: 20px;">Hi, My name is Tyler. I believe the combination of geomatics and programming can drive meaningful change to the world! </span>
+ <br><br>
 
 ## Education
+<span style="font-size: 18px;">
+University of British Columbia | Vancouver, BC <br> Master in Geomatics and Environmental Management | 2024 - 2025</span>
 
-University of British Columbia | Vancouver, BC <br> Master in Geomatics and Environmental Management | 2024 - 2025
-
-University of Victoria | Victoria, BC<br> B.Sc in Earth and Ocean Science | 2016 - 2021<br><br>
+<span style="font-size: 18px;">
+University of Victoria | Victoria, BC<br> B.Sc in Earth and Ocean Science | 2016 - 2021</span><br><br>
 
 ## Experience
+<span style="font-size: 18px;">
+Sonar Data Analyst | AquaCoustic Remote Technologies, Inc. | 2021 - 2024</span>
 
-Sonar Data Analyst | AquaCoustic Remote Technologies, Inc. | 2021 - 2024
+<span style="font-size: 18px;">
+Data Analyst | Fisheries and Oceans Canada | 2021</span>
 
-Research Assistant | Fisheries and Oceans Canada | 2021
-
-Research Assistant | Fisheries and Oceans Canada | 2019
+<span style="font-size: 18px;">
+Research Assistant | Fisheries and Oceans Canada | 2019</span>
