@@ -14,18 +14,16 @@ If you've produced any GIS layers for your 599 project, this may be a good place
 
 Sample leaflet - for detailed leaflet instructions, visit the FCOR 599 workshop archive page [here](https://ubc-mgem-fcor599.github.io/FCOR-599-Workshops/Interactive_Maps/leaflet.html).
 
-```{r leaflet, include = FALSE}
-library(dplyr); library(leaflet)
+Sample raster plot - for detailed raster plotting instructions, visit the FCOR 599 workshop archive page here.
 
-m <- leaflet() %>%
-  addProviderTiles("Esri.WorldImagery") %>%
-  addScaleBar(position = c("bottomleft")) %>%
-  setView(-123.1207, 49.2827, zoom = 11)
+```{r raster_plot, echo=FALSE}
+library(terra)
 
-```
+# Load RGB image
+r <- rast("C:/Users/zhangtyl.stu/OneDrive - UBC/Desktop/GEM521/Lab 4/L4_Data/Aerial_Photo/AFRF_Aerial_Photo.tif")
 
-```{r map, echo=FALSE}
-m
+# Display raster as a plot
+plotRGB(r, r = 1, g = 2, b = 3, scale = 1, stretch = "lin")
 ```
 
 ## Code Snippets
