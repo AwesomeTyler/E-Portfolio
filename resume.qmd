@@ -10,12 +10,14 @@ format:
 
 -   <span style="font-size: 18px;">
 <strong>University of British Columbia</strong> <br>
-Master of Geomatics for Environmental Management<br><br>
+Master of Geomatics for Environmental Management<br>
+2024-2025<br><br>
 </span>
 
 -   <span style="font-size: 18px;">
 <strong>University of Victoria</strong><br>
 B.Sc in Earth and Ocean Science<br>
+2016-2021<br>
 </span>
 
 <br><br>
