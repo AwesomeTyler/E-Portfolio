@@ -30,28 +30,28 @@
   {
     "objectID": "content.html",
     "href": "content.html",
-    "title": "Content & Deliverables",
+    "title": "Howe Sound Debris Hotspot Analysis",
     "section": "",
     "text": "This is a sample page where you can archive project deliverables. Every header you use will correspond to a tab in the legend - shown on the right-hand side of your screen (“On this page”).\nIf you’ve produced any GIS layers for your 599 project, this may be a good place to share them as interactive maps through leaflet. Alternatively, you can upload high-res figures showing correlations, box-plots, etc. from your report here, and provide a brief overview of key project results. If you have written some useful functions, you may also want to share those here to demonstrate proficiency in particular coding languages or synergies between notable coding packages.\n\n\nSample leaflet - for detailed leaflet instructions, visit the FCOR 599 workshop archive page here.\nSample raster plot - for detailed raster plotting instructions, visit the FCOR 599 workshop archive page here.\n\n\nWarning: package 'terra' was built under R version 4.3.3\n\n\nterra 1.7.78\n\n\n\n\n\n\n\n\n\n\n\n\nSample code snippet. Notice that you can provide a toggle to switch between coding languages - this is referred to as a ‘tabset’ in quarto. It is good practice to try and convert your R code to python, and vice-versa to demonstrate coding proficiency. For example, let’s showcase a function for calculating NDVI in R and Python.\n\nRPython\n\n\ncalc_ndvi &lt;- function(nir, red){ ndvi &lt;- (nir-red)/(nir+red) return(ndvi) }\n\n\ndef calc_ndvi(nir, red): \n  ndvi = (nir.astype(float)-red.astype(float))/(nir.astype(float)+red.astype(float))\n  return(ndvi)\n\n\n\n\n\n\nYou can also provide a frame linking to external websites. For example, here is a link to a Google Earth Engine application I developed. The full-screen GEE application is available here in case you’re interested.\n(To use the GEE tool, navigate to any city you’d like, hit apply filters, and click anywhere on the map to retrieve a time-series of Landsat surface temperature observations for that point. Areas where the maximum temp exceeded 35 degrees Celsius in your date-range are highlighted in red.)"
   },
   {
     "objectID": "content.html#leaflet",
     "href": "content.html#leaflet",
-    "title": "Content & Deliverables",
+    "title": "Howe Sound Debris Hotspot Analysis",
     "section": "",
     "text": "Sample leaflet - for detailed leaflet instructions, visit the FCOR 599 workshop archive page here.\nSample raster plot - for detailed raster plotting instructions, visit the FCOR 599 workshop archive page here.\n\n\nWarning: package 'terra' was built under R version 4.3.3\n\n\nterra 1.7.78"
   },
   {
     "objectID": "content.html#code-snippets",
     "href": "content.html#code-snippets",
-    "title": "Content & Deliverables",
+    "title": "Howe Sound Debris Hotspot Analysis",
     "section": "",
     "text": "Sample code snippet. Notice that you can provide a toggle to switch between coding languages - this is referred to as a ‘tabset’ in quarto. It is good practice to try and convert your R code to python, and vice-versa to demonstrate coding proficiency. For example, let’s showcase a function for calculating NDVI in R and Python.\n\nRPython\n\n\ncalc_ndvi &lt;- function(nir, red){ ndvi &lt;- (nir-red)/(nir+red) return(ndvi) }\n\n\ndef calc_ndvi(nir, red): \n  ndvi = (nir.astype(float)-red.astype(float))/(nir.astype(float)+red.astype(float))\n  return(ndvi)"
   },
   {
     "objectID": "content.html#external-links",
     "href": "content.html#external-links",
-    "title": "Content & Deliverables",
+    "title": "Howe Sound Debris Hotspot Analysis",
     "section": "",
     "text": "You can also provide a frame linking to external websites. For example, here is a link to a Google Earth Engine application I developed. The full-screen GEE application is available here in case you’re interested.\n(To use the GEE tool, navigate to any city you’d like, hit apply filters, and click anywhere on the map to retrieve a time-series of Landsat surface temperature observations for that point. Areas where the maximum temp exceeded 35 degrees Celsius in your date-range are highlighted in red.)"
   },
@@ -67,6 +67,83 @@
     "href": "index.html#experience",
     "title": "Tyler Zhang",
     "section": "Experience",
-    "text": "Experience\n Sonar Data Analyst | AquaCoustic Remote Technologies, Inc. | 2021 - 2024\n Data Analyst | Fisheries and Oceans Canada | 2021\n Research Assistant | Fisheries and Oceans Canada | 2019"
+    "text": "Experience\n Sonar Data Analyst | Aquacoustic Remote Technologies, Inc. | 2021 - 2024\n Data Analyst | Fisheries and Oceans Canada | 2021\n Research Assistant | Fisheries and Oceans Canada | 2019"
+  },
+  {
+    "objectID": "DEM.html",
+    "href": "DEM.html",
+    "title": "Lidar Data Analysis",
+    "section": "",
+    "text": "In this project, lidar data from MKRF research forest are used to generate high-resolution digital elevation models (DEM) and Canopy Height models (CHM) for terrain analysis, vegetation mapping, and various remote sensing applications."
+  },
+  {
+    "objectID": "Howe_Sound.html",
+    "href": "Howe_Sound.html",
+    "title": "Howe Sound Debris Hotspot Analysis",
+    "section": "",
+    "text": "This is a sample page where you can archive project deliverables. Every header you use will correspond to a tab in the legend - shown on the right-hand side of your screen (“On this page”).\nIf you’ve produced any GIS layers for your 599 project, this may be a good place to share them as interactive maps through leaflet. Alternatively, you can upload high-res figures showing correlations, box-plots, etc. from your report here, and provide a brief overview of key project results. If you have written some useful functions, you may also want to share those here to demonstrate proficiency in particular coding languages or synergies between notable coding packages.\n\n\nSample leaflet - for detailed leaflet instructions, visit the FCOR 599 workshop archive page here.\nSample raster plot - for detailed raster plotting instructions, visit the FCOR 599 workshop archive page here.\n\n\nWarning: package 'terra' was built under R version 4.3.3\n\n\nterra 1.7.78\n\n\n\n\n\n\n\n\n\n\n\n\nSample code snippet. Notice that you can provide a toggle to switch between coding languages - this is referred to as a ‘tabset’ in quarto. It is good practice to try and convert your R code to python, and vice-versa to demonstrate coding proficiency. For example, let’s showcase a function for calculating NDVI in R and Python.\n\nRPython\n\n\ncalc_ndvi &lt;- function(nir, red){ ndvi &lt;- (nir-red)/(nir+red) return(ndvi) }\n\n\ndef calc_ndvi(nir, red): \n  ndvi = (nir.astype(float)-red.astype(float))/(nir.astype(float)+red.astype(float))\n  return(ndvi)\n\n\n\n\n\n\nYou can also provide a frame linking to external websites. For example, here is a link to a Google Earth Engine application I developed. The full-screen GEE application is available here in case you’re interested.\n(To use the GEE tool, navigate to any city you’d like, hit apply filters, and click anywhere on the map to retrieve a time-series of Landsat surface temperature observations for that point. Areas where the maximum temp exceeded 35 degrees Celsius in your date-range are highlighted in red.)"
+  },
+  {
+    "objectID": "Howe_Sound.html#leaflet",
+    "href": "Howe_Sound.html#leaflet",
+    "title": "Howe Sound Debris Hotspot Analysis",
+    "section": "",
+    "text": "Sample leaflet - for detailed leaflet instructions, visit the FCOR 599 workshop archive page here.\nSample raster plot - for detailed raster plotting instructions, visit the FCOR 599 workshop archive page here.\n\n\nWarning: package 'terra' was built under R version 4.3.3\n\n\nterra 1.7.78"
+  },
+  {
+    "objectID": "Howe_Sound.html#code-snippets",
+    "href": "Howe_Sound.html#code-snippets",
+    "title": "Howe Sound Debris Hotspot Analysis",
+    "section": "",
+    "text": "Sample code snippet. Notice that you can provide a toggle to switch between coding languages - this is referred to as a ‘tabset’ in quarto. It is good practice to try and convert your R code to python, and vice-versa to demonstrate coding proficiency. For example, let’s showcase a function for calculating NDVI in R and Python.\n\nRPython\n\n\ncalc_ndvi &lt;- function(nir, red){ ndvi &lt;- (nir-red)/(nir+red) return(ndvi) }\n\n\ndef calc_ndvi(nir, red): \n  ndvi = (nir.astype(float)-red.astype(float))/(nir.astype(float)+red.astype(float))\n  return(ndvi)"
+  },
+  {
+    "objectID": "Howe_Sound.html#external-links",
+    "href": "Howe_Sound.html#external-links",
+    "title": "Howe Sound Debris Hotspot Analysis",
+    "section": "",
+    "text": "You can also provide a frame linking to external websites. For example, here is a link to a Google Earth Engine application I developed. The full-screen GEE application is available here in case you’re interested.\n(To use the GEE tool, navigate to any city you’d like, hit apply filters, and click anywhere on the map to retrieve a time-series of Landsat surface temperature observations for that point. Areas where the maximum temp exceeded 35 degrees Celsius in your date-range are highlighted in red.)"
+  },
+  {
+    "objectID": "Manhole_Mate.html",
+    "href": "Manhole_Mate.html",
+    "title": "Manhole Mate",
+    "section": "",
+    "text": "A free infrastructure Locating Software Design and developed by Tyler\n Manhole Mate provides an efficient way to access and manage infrastructure information and accurately locate assets on both Google Maps and GIS maps\n\n\n\nMain User Interface\n\n \n\nBuilt-in Google Street View\n\n \n\nCustomizable GIS Map\n\n\n\nAvailable in IOS and Python"
+  },
+  {
+    "objectID": "DEM.html#leaflet",
+    "href": "DEM.html#leaflet",
+    "title": "Project 1 - Capstone Deliverables",
+    "section": "",
+    "text": "Sample leaflet - for detailed leaflet instructions, visit the FCOR 599 workshop archive page here.\nSample raster plot - for detailed raster plotting instructions, visit the FCOR 599 workshop archive page here.\n\n\nWarning: package 'terra' was built under R version 4.3.3\n\n\nterra 1.7.78"
+  },
+  {
+    "objectID": "DEM.html#code-snippets",
+    "href": "DEM.html#code-snippets",
+    "title": "Lidar Data Analysis",
+    "section": "Code Snippets",
+    "text": "Code Snippets\n\nR\n\n\nRaw_MKRF_Las &lt;- readLAS(\"LAS/MKRF.las\")\nMKRF_Las_Filtered &lt;- filter_duplicates(Raw_MKRF_Las)  #Removes Duplicated points\n\nDEM_MKRF &lt;- rasterize_terrain(MKRF_Las_Filtered, 2, tin())\nDSM_MKRF &lt;- rasterize_canopy(MKRF_Las_Filtered, res = 1, algorithm = p2r())\n\n#CHM can be derived using DSM - DEM or using normalization method\nNormalized_MHRF &lt;- normalize_height(MKRF_Las_Filtered, DEM_MKRF)\nCHM_MHRF &lt;- rasterize_canopy(Normalized_MHRF, 2, p2r())"
+  },
+  {
+    "objectID": "DEM.html#external-links",
+    "href": "DEM.html#external-links",
+    "title": "Lidar Data Analysis",
+    "section": "External links",
+    "text": "External links\nYou can also provide a frame linking to external websites. For example, here is a link to a Google Earth Engine application I developed. The full-screen GEE application is available here in case you’re interested.\n(To use the GEE tool, navigate to any city you’d like, hit apply filters, and click anywhere on the map to retrieve a time-series of Landsat surface temperature observations for that point. Areas where the maximum temp exceeded 35 degrees Celsius in your date-range are highlighted in red.)"
+  },
+  {
+    "objectID": "DEM.html#method",
+    "href": "DEM.html#method",
+    "title": "Lidar Data Analysis",
+    "section": "Method",
+    "text": "Method\n To generate the Digital Elevation Model (DEM) and Canopy Height Model (CHM), the lidar data stored in a .las file was first loaded and inspected using readLAS() and las_check(), identifying issues such as duplicate points, which were removed with filter_duplicates(). The Digital Elevation Model (DEM) was created using rasterize_terrain() with the tin() algorithm.\n The DSM was then generated by rasterizing the highest lidar returns with rasterize_canopy() , capturing the uppermost surfaces. Since the CHM represents vegetation height above the ground, the lidar point cloud was normalized using normalize_height(), which adjusted elevation values so that ground points were set to zero. Finally, the Canopy Height Model (CHM) was derived from the normalized LiDAR data using rasterize_canopy(), representing vegetation heights across the study area."
+  },
+  {
+    "objectID": "DEM.html#result",
+    "href": "DEM.html#result",
+    "title": "Lidar Data Analysis",
+    "section": "Result",
+    "text": "Result\n\n\n\n Figure 1. Digital Elevation Models (DEM) of MKRF Research Forest\n\n\n\n Figure 2. Canopy Height Models (CHM) OF MKRF Research Forest"
   }
 ]

@@ -10,10 +10,12 @@ website:
         text: Home
       - href: resume.qmd
         text: Resume
-      - href: publications.qmd
+      - href: Manhole_Mate.qmd
         text: Manhole Mate
-      - href: content.qmd
-        text: Content & Deliverables
+      - href: Howe_Sound.qmd
+        text: Debris Hotspot Analysis
+      - href: DEM.qmd
+        text: Lidar Data Analysis
 
 format:
   html:

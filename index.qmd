@@ -30,7 +30,7 @@ University of Victoria | Victoria, BC<br> B.Sc in Earth and Ocean Science | 2016
 
 ## Experience
 <span style="font-size: 18px;">
-Sonar Data Analyst | AquaCoustic Remote Technologies, Inc. | 2021 - 2024</span>
+Sonar Data Analyst | Aquacoustic Remote Technologies, Inc. | 2021 - 2024</span>
 
 <span style="font-size: 18px;">
 Data Analyst | Fisheries and Oceans Canada | 2021</span>
