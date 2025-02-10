@@ -142,11 +142,14 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><span style="font-size: 25px;"><span style="margin-right: 30px;"></span> In this project, lidar data from MKRF research forest are used to generate high-resolution digital elevation models (DEM) and Canopy Height models (CHM) for terrain analysis, vegetation mapping, and various remote sensing applications. </span><br></p>
+<section id="section" class="level2">
+<h2 class="anchored" data-anchor-id="section"></h2>
+<p><span style="font-size: 22px;"><span style="margin-right: 30px;"></span> In this project, lidar data from MKRF research forest are used to generate high-resolution digital elevation models (DEM) and Canopy Height models (CHM) for terrain analysis, vegetation mapping, and various remote sensing applications. </span><br></p>
 <div style="display: flex; justify-content: center; gap: 0px;">
 <p><img src="images/Las_File_Demo.gif" alt="Another Image" width="100%"></p>
 </div>
 <p><br><br><br></p>
+</section>
 <section id="method" class="level2">
 <h2 class="anchored" data-anchor-id="method">Method</h2>
 <p><span style="font-size: 22px;"><span style="margin-right: 30px;"></span> To generate the Digital Elevation Model (DEM) and Canopy Height Model (CHM), the lidar data stored in a .las file was first loaded and inspected using <strong>readLAS()</strong> and <strong>las_check()</strong>, identifying issues such as duplicate points, which were removed with <strong>filter_duplicates()</strong>. The Digital Elevation Model (DEM) was created using <strong>rasterize_terrain()</strong> with the tin() algorithm.</span><br></p>

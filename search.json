@@ -145,5 +145,19 @@
     "title": "Lidar Data Analysis",
     "section": "Result",
     "text": "Result\n\n\n\n Figure 1. Digital Elevation Models (DEM) of MKRF Research Forest\n\n\n\n Figure 2. Canopy Height Models (CHM) OF MKRF Research Forest"
+  },
+  {
+    "objectID": "DEM.html#introduction",
+    "href": "DEM.html#introduction",
+    "title": "Lidar Data Analysis",
+    "section": "",
+    "text": "In this project, lidar data from MKRF research forest are used to generate high-resolution digital elevation models (DEM) and Canopy Height models (CHM) for terrain analysis, vegetation mapping, and various remote sensing applications."
+  },
+  {
+    "objectID": "DEM.html#section",
+    "href": "DEM.html#section",
+    "title": "Lidar Data Analysis",
+    "section": "",
+    "text": "In this project, lidar data from MKRF research forest are used to generate high-resolution digital elevation models (DEM) and Canopy Height models (CHM) for terrain analysis, vegetation mapping, and various remote sensing applications."
   }
 ]

@@ -7,8 +7,8 @@ format:
 
 
 
-
- <span style="font-size: 25px;"><span style="margin-right: 30px;"></span> In this project, lidar data from MKRF research forest are used to generate high-resolution digital elevation models (DEM) and Canopy Height models (CHM) for terrain analysis, vegetation mapping, and various remote sensing applications. </span><br>
+## 
+ <span style="font-size: 22px;"><span style="margin-right: 30px;"></span> In this project, lidar data from MKRF research forest are used to generate high-resolution digital elevation models (DEM) and Canopy Height models (CHM) for terrain analysis, vegetation mapping, and various remote sensing applications. </span><br>
 
 <div style="display: flex; justify-content: center; gap: 0px;">
   <img src="images/Las_File_Demo.gif" alt="Another Image" width="100%">
