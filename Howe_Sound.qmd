@@ -10,7 +10,7 @@ format:
  
 
 ## Method
- <span style="font-size: 22px;"><span style="margin-right: 30px;"></span> Multi-band satellite images at 20m resolution obtained from Copernicus were merged into a true-color composite raster image in ArcGIS Pro. Training data for six landcover types—vegetation, ocean water, river discharge, urban area, snow, and exposed rocks were manually created. The Maximum Likelihood Classification (MLC) and neural network algorithm were then applied to classify each pixel based on spectral characteristics.</span><br>
+ <span style="font-size: 22px;"><span style="margin-right: 30px;"></span> Multi-band satellite images at 20m resolution obtained from Copernicus were merged into a true-color composite raster image in ArcGIS Pro. Training data for six landcover types—vegetation, ocean water, river discharge, urban area, snow, and exposed rocks were manually created. The Maximum Likelihood Classification and neural network algorithm were then applied to classify each pixel based on spectral characteristics.</span><br>
 
 <!-- Container for the side-by-side slider -->
 <div id="comparison-slider-1" style="width: 80%; max-width: 800px; margin: auto;"></div>
@@ -72,4 +72,6 @@ format:
     startingPosition: "50%"
   });
 </script>
-[*Fig 2. Supervised classification map comparing satellite images of Howe Sound on a winter and summer day.*]{style="font-size: 25px;"}<br><br><br><br><br>
+[*Fig 2. Supervised classification map comparing satellite images of Howe Sound on a winter and summer day.*]{style="font-size: 25px;"}<br><br>
+
+ <strong>[*Debris transport path simulation model is expected in March 2025...*]{style="font-size: 25px;"}</strong><br><br><br><br><br> 
