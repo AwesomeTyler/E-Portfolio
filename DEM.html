@@ -159,7 +159,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="code-snippets" class="level2">
 <h2 class="anchored" data-anchor-id="code-snippets">Code Snippets</h2>
 <div class="tabset-margin-container"></div><div class="panel-tabset" data-group="language">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">R</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">R</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Python</a></li></ul>
 <div class="tab-content" data-group="language">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <pre class="(.r)"><code>library(lidR)
@@ -172,6 +172,9 @@ DSM_MKRF &lt;- rasterize_canopy(MKRF_Las_Filtered, res = 1, algorithm = p2r())
 #CHM can be derived using DSM - DEM or using normalization method
 Normalized_MHRF &lt;- normalize_height(MKRF_Las_Filtered, DEM_MKRF)
 CHM_MHRF &lt;- rasterize_canopy(Normalized_MHRF, 2, p2r())</code></pre>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+
 </div>
 </div>
 </div>

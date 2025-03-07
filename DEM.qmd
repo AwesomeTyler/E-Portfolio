@@ -40,6 +40,7 @@ DSM_MKRF <- rasterize_canopy(MKRF_Las_Filtered, res = 1, algorithm = p2r())
 Normalized_MHRF <- normalize_height(MKRF_Las_Filtered, DEM_MKRF)
 CHM_MHRF <- rasterize_canopy(Normalized_MHRF, 2, p2r())
 ```
+## Python
 :::
 
 ## Result

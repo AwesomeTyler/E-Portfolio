@@ -123,7 +123,7 @@
     "href": "DEM.html#code-snippets",
     "title": "Lidar Data Analysis",
     "section": "Code Snippets",
-    "text": "Code Snippets\n\nR\n\n\nlibrary(lidR)\nRaw_MKRF_Las &lt;- readLAS(\"LAS/MKRF.las\")\nMKRF_Las_Filtered &lt;- filter_duplicates(Raw_MKRF_Las)  #Removes Duplicated points\n\nDEM_MKRF &lt;- rasterize_terrain(MKRF_Las_Filtered, 2, tin())\nDSM_MKRF &lt;- rasterize_canopy(MKRF_Las_Filtered, res = 1, algorithm = p2r())\n\n#CHM can be derived using DSM - DEM or using normalization method\nNormalized_MHRF &lt;- normalize_height(MKRF_Las_Filtered, DEM_MKRF)\nCHM_MHRF &lt;- rasterize_canopy(Normalized_MHRF, 2, p2r())"
+    "text": "Code Snippets\n\nRPython\n\n\nlibrary(lidR)\nRaw_MKRF_Las &lt;- readLAS(\"LAS/MKRF.las\")\nMKRF_Las_Filtered &lt;- filter_duplicates(Raw_MKRF_Las)  #Removes Duplicated points\n\nDEM_MKRF &lt;- rasterize_terrain(MKRF_Las_Filtered, 2, tin())\nDSM_MKRF &lt;- rasterize_canopy(MKRF_Las_Filtered, res = 1, algorithm = p2r())\n\n#CHM can be derived using DSM - DEM or using normalization method\nNormalized_MHRF &lt;- normalize_height(MKRF_Las_Filtered, DEM_MKRF)\nCHM_MHRF &lt;- rasterize_canopy(Normalized_MHRF, 2, p2r())"
   },
   {
     "objectID": "DEM.html#external-links",
