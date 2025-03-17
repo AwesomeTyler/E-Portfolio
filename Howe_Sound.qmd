@@ -8,10 +8,7 @@ format:
 ## 
  <span style="font-size: 22px;"><span style="margin-right: 30px;"></span> Marine debris poses significant environmental and infrastructural risks, yet no studies have predicted debris accumulation patterns in Howe Sound. This research uses supervised classification of satellite imagery to analyze common landcover features of existing debris hotspots and develops a simulation model incorporating wind and river discharge as debris driving forces to predict future debris movement. By mapping debris pathways and identifying high-risk zones, this study aims to support conservation efforts and improve debris management strategies in the region.</span><br>
  
-
-## Method
- <span style="font-size: 22px;"><span style="margin-right: 30px;"></span> Multi-band satellite images at 20m resolution obtained from Copernicus were merged into a true-color composite raster image in ArcGIS Pro. Training data for six landcover types—vegetation, ocean water, river discharge, urban area, snow, and exposed rocks were manually created. The Maximum Likelihood Classification and neural network algorithm were then applied to classify each pixel based on spectral characteristics.</span><br>
-
+ 
 <!-- Container for the side-by-side slider -->
 <div id="comparison-slider-1" style="width: 80%; max-width: 800px; margin: auto;"></div>
 
@@ -39,12 +36,15 @@ format:
 </script>
 [*Fig 1. Satellite images of Howe Sound on a winter and summer day at 20m resolution.*]{style="font-size: 25px;"}<br>
 
- <span style="font-size: 22px;"><span style="margin-right: 30px;"></span>To predict future debris hotspots, a debris movement simulation model will be developed using a Howe Sound cartographic shapefile. The model will incorporate wind and river discharge as driving forces to visualize debris transport. Based on surface water variations Howe Sound will be divided into three sections: Northern Howe Sound (Squamish to Britannia Beach), Central Howe Sound (Britannia Beach to Anvil Island), and Southern Howe Sound (South Anvil Island to the Strait of Georgia). This division will help refine debris transport predictions.</span><br>
-
+ 
 
 ## Result
 
- <span style="font-size: 22px;"><span style="margin-right: 30px;"></span> Figure 2 shows the classified maps of the Howe Sound study area, highlighting reduced snow cover in summer and lower river discharge in winter. These patterns suggest that river discharge drives debris accumulation in northern and central Howe Sound only during summer. Additionally, debris hotspots are primarily concentrated in urban areas, likely due to the reliance on local resident reports for identification. </span><br>
+
+
+## Classification
+
+ <span style="font-size: 22px;"><span style="margin-right: 30px;"></span> Multi-band satellite images (20m resolution) were merged into a true-color composite in ArcGIS Pro. Training data for six landcover types—vegetation, ocean water, river discharge, urban area, snow, and exposed rocks—were manually created, and classification was performed using Maximum Likelihood Classification and a neural network algorithm. Figure 2 presents the classified maps of the Howe Sound study area, revealing seasonal patterns: reduced snow cover in summer and lower river discharge in winter. These findings suggest that river discharge drives debris accumulation in northern and central Howe Sound primarily during summer. Additionally, there's a missing in debris hotspot along the western shoreline of Howe Sound, possibly due to lower population density and less resident reports. </span><br>
 
 
 <!-- Container for the side-by-side slider -->
@@ -74,4 +74,19 @@ format:
 </script>
 [*Fig 2. Supervised classification map comparing satellite images of Howe Sound on a winter and summer day.*]{style="font-size: 25px;"}<br><br>
 
- <strong>[*Debris transport path simulation model is expected in March 2025...*]{style="font-size: 25px;"}</strong><br><br><br><br><br> 
+## Wind Data
+
+ <span style="font-size: 22px;"><span style="margin-right: 30px;"></span> Another significant driving force for debris movement is wind. In Howe Sound, four stations collect hourly wind data. The wind rose diagrams for summer (June–August) and winter (December–February) at Squamish Airport, Point Atkinson, Pam Rock, and Port Mellon stations are shown in Figure 3.  </span><br>
+<div style="display: flex; justify-content: center; gap: 0px;">
+  <img src="images/Windrose_Plot.png" alt="Another Image" width="100%">
+</div>
+
+[*Fig 3. Wind rose diagram showing daytime wind direction at stations in Howe Sound.*]{style="font-size: 25px;"}<br><br>
+
+## Debris Pathway Simulation Model
+<div style="display: flex; justify-content: center; gap: 0px;">
+  <img src="images/Debris_Simulation.gif" alt="Another Image" width="100%">
+</div>
+
+ <span style="font-size: 22px;"><span style="margin-right: 30px;"></span> The debris simulation model and the UI can be found on my github.  </span><br>
+
