@@ -6,39 +6,13 @@ format:
 ---
 
 ## 
- <span style="font-size: 22px;"><span style="margin-right: 30px;"></span> Marine debris poses significant environmental and infrastructural risks, yet no studies have predicted debris accumulation patterns in Howe Sound. This research uses supervised classification of satellite imagery to analyze common landcover features of existing debris hotspots and develops a simulation model incorporating wind and river discharge as debris driving forces to predict future debris movement. By mapping debris pathways and identifying high-risk zones, this study aims to support conservation efforts and improve debris management strategies in the region.</span><br>
- 
- 
-<!-- Container for the side-by-side slider -->
-<div id="comparison-slider-1" style="width: 80%; max-width: 800px; margin: auto;"></div>
+ <span style="font-size: 22px;"><span style="margin-right: 30px;"></span> Marine debris threatens Howe Sound, yet its accumulation remains unstudied. This research analyzes debris hotspots via superised satellite imagery classification and models future movement using wind and river discharge </span><br>
+  <span style="font-size: 22px;"><span style="margin-right: 30px;"></span> A total of 49 debris hotspots were identified using the debris pathway simulation model, with 20 of them overlapping existing resident-reported debris hotspots. By mapping debris pathways and identifying high-risk zones, this study aims to support conservation efforts and improve debris management strategies in the region. </span><br>
 
-<!-- Load JuxtaposeJS for the sliding effect -->
-<link rel="stylesheet" href="https://cdn.knightlab.com/libs/juxtapose/latest/css/juxtapose.css">
-<script src="https://cdn.knightlab.com/libs/juxtapose/latest/js/juxtapose.js"></script>
 
-<!-- Initialize the comparison slider -->
-<script>
-  new juxtapose.JXSlider('#comparison-slider-1', [
-    {
-      src: 'images/Winter_Unclassified.png',
-      label: 'Winter'
-    },
-    {
-      src: 'images/Summer_Unclassified.png',
-      label: 'Summer'
-    }
-  ], {
-    animate: true,
-    showLabels: true,
-    showCredits: false,
-    startingPosition: "50%"
-  });
-</script>
-[*Fig 1. Satellite images of Howe Sound on a winter and summer day at 20m resolution.*]{style="font-size: 25px;"}<br>
 
- 
 
-## Result
+
 ```{r leaflet, include = FALSE}
 library(dplyr)
 library(leaflet)
@@ -88,7 +62,6 @@ m <- m %>%
     position = "bottomright",
     colors = c("#dece24", "#23ffe9"),  # Yellow and cyan
     labels = c("Predicted Debris Hotspots", "Resident Reported Hotspots"),
-    title = "Legend"
   )
 
 
@@ -98,7 +71,7 @@ m <- m %>%
 ```{r map, echo=FALSE}
 m
 ```
-
+[*Fig 1. Predicted and Existing Debris Hotspot in Howe Sound, BC*]{style="font-size: 25px;"}<br>
 
 ## Classification
 
@@ -146,5 +119,6 @@ m
   <img src="images/Debris_Simulation.gif" alt="Another Image" width="100%">
 </div>
 
- <span style="font-size: 22px;"><span style="margin-right: 30px;"></span> The debris simulation model and the UI can be found on my github.  </span><br>
+ <span style="font-size: 22px;"><span style="margin-right: 30px;"></span> The debris simulation model and the UI can be found on my [GitHub](https://github.com/AwesomeTyler).
+ </span><br>
 
