@@ -23,7 +23,7 @@ format:
 
 ## Education
 <span style="font-size: 18px;">
-University of British Columbia | Vancouver, BC <br> Master in Geomatics and Environmental Management | 2024 - 2025</span>
+The University of British Columbia | Vancouver, BC <br> Master in Geomatics and Environmental Management | 2024 - 2025</span>
 
 <span style="font-size: 18px;">
 University of Victoria | Victoria, BC<br> B.Sc in Earth and Ocean Science | 2016 - 2021</span><br><br>
