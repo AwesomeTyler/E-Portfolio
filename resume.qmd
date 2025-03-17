@@ -9,7 +9,7 @@ format:
 # Education
 
 -   <span style="font-size: 18px;">
-<strong>University of British Columbia</strong> <br>
+<strong>The University of British Columbia</strong> <br>
 Master of Geomatics for Environmental Management<br>
 2024-2025<br><br>
 </span>
@@ -79,9 +79,13 @@ Victoria, BC
 
 # Competencies
 
- <span style="font-size: 18px;"><span style="margin-right: 53px;"></span><strong>Programming:</strong> Proficient in Python, R, and Swift with experience in data analysis, statistical modeling, and app development.</span><br>
+ <span style="font-size: 18px;"><span style="margin-right: 53px;"></span><strong>Programming:</strong> Proficient in Python, R, and Swift, with expertise in geospatial data analysis and workflow automation. </span><br>
  
- <span style="font-size: 18px;"><span style="margin-right: 53px;"></span><strong>Software:</strong> Proficient in ArcGIS Pro, QGIS, Cloudcompare</span><br>
+   <span style="font-size: 18px;"><span style="margin-right: 53px;"></span><strong>Mobile App Development:</strong> Designed and developed ‘Manhole Mate’, an iOS mobile application for locating infrastructure assets 
+using municipal geodatabases.</span><br>
+  
+ 
+ <span style="font-size: 18px;"><span style="margin-right: 53px;"></span><strong>Software:</strong> ArcGIS Pro, QGIS, CloudCompare; proficient in spatial analysis and create accurate maps and plots.</span><br>
  
   <span style="font-size: 18px;"><span style="margin-right: 53px;"></span><strong>Communication:</strong> Excellent communication skills developed through close collaboration with clients and team members, effectively identifying and addressing their needs.</span><br>
   
