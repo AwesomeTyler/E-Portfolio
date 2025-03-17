@@ -39,7 +39,65 @@ format:
  
 
 ## Result
+```{r leaflet, include = FALSE}
+library(dplyr)
+library(leaflet)
+library(sf)  # For reading GeoJSON
 
+# Load the GeoJSON debris hotspots file
+debris_hotspots <- st_read("images/debris_hotspots.geojson")
+Resident_Report_hotspots <- st_read("images/Resident_Reported_hotspots.geojson")
+
+# Initialize the Leaflet map
+m <- leaflet() %>%
+  addProviderTiles("Esri.WorldImagery", group = "Basemap") %>%  # Satellite imagery
+  addScaleBar(position = "bottomleft") %>%
+  setView(lng = -123.36, lat = 49.5, zoom = 10)  # Adjust center and zoom level
+
+# Add Predicted Debris Hotspots layer
+m <- m %>%
+  addCircleMarkers(
+    lng = st_coordinates(debris_hotspots)[,1],  # Extract longitude
+    lat = st_coordinates(debris_hotspots)[,2],  # Extract latitude
+    radius = 2,
+    color = "#dece24",
+    fillOpacity = 0.8,
+    group = "Predicted Debris Hotspots"
+  )
+
+# Add Resident Reported Hotspots layer
+m <- m %>%
+  addCircleMarkers(
+    lng = st_coordinates(Resident_Report_hotspots)[,1],  # Extract longitude
+    lat = st_coordinates(Resident_Report_hotspots)[,2],  # Extract latitude
+    radius = 2,
+    color = "#23ffe9",
+    fillOpacity = 0.8,
+    group = "Resident Reported Hotspots"
+  )
+
+# Add Layer Control
+m <- m %>%
+  addLayersControl(
+    overlayGroups = c("Predicted Debris Hotspots", "Resident Reported Hotspots"),
+    options = layersControlOptions(collapsed = FALSE)
+  ) %>%
+
+  # Add Legend
+  addLegend(
+    position = "bottomright",
+    colors = c("#dece24", "#23ffe9"),  # Yellow and cyan
+    labels = c("Predicted Debris Hotspots", "Resident Reported Hotspots"),
+    title = "Legend"
+  )
+
+
+
+```
+
+```{r map, echo=FALSE}
+m
+```
 
 
 ## Classification
