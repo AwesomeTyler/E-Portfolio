@@ -6,7 +6,7 @@ format:
 ---
 
 ## 
- <span style="font-size: 22px;"><span style="margin-right: 30px;"></span> Marine debris threatens Howe Sound, yet its accumulation remains unstudied. This research analyzes debris hotspots via superised satellite imagery classification and models future movement using wind and river discharge </span><br>
+ <span style="font-size: 22px;"><span style="margin-right: 30px;"></span> Marine debris threatens Howe Sound, yet its accumulation remains unstudied. This research analyzes debris hotspots via supervised satellite imagery classification and models future movement using wind and river discharge </span><br>
   <span style="font-size: 22px;"><span style="margin-right: 30px;"></span> A total of 49 debris hotspots were identified using the debris pathway simulation model, with 20 of them overlapping existing resident-reported debris hotspots. By mapping debris pathways and identifying high-risk zones, this study aims to support conservation efforts and improve debris management strategies in the region. </span><br>
 
 
