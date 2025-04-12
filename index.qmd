@@ -18,7 +18,7 @@ format:
     toc: false
 ---
 
-<span style="font-size: 20px;">Hi, My name is Tyler. I believe the combination of geomatics and programming can drive meaningful change to the world! </span>
+<span style="font-size: 20px;">Hi, My name is Tyler. I believe the combination of geomatics and programming can drive meaningful changes to the world! </span>
  <br><br>
 
 ## Education
