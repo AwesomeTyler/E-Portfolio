@@ -9,7 +9,7 @@ format:
 # Education
 
 -   <span style="font-size: 18px;">
-<strong>The University of British Columbia</strong> <br>
+<strong>University of British Columbia</strong> <br>
 Master of Geomatics for Environmental Management<br>
 2024-2025<br><br>
 </span>
@@ -34,7 +34,7 @@ Vancouver, BC
 <br>
 
  <span style="font-size: 18px;"><span style="margin-right: 55px;"></span><strong>-</strong> Analyzed field-collected trunk sewer sonar data combined with GIS data to create accurate</span>
-  <span style="font-size: 18px;"><span style="margin-right: 65px;"></span>  maps, plots, and technical reports for infrastructure condition assessment.</span>
+  <span style="font-size: 18px;"><span style="margin-right: 65px;"></span>maps, plots, and technical reports for infrastructure condition assessment.</span>
 
  <span style="font-size: 18px;"><span style="margin-right: 53px;"></span><strong>-</strong> Supported the development and maintenance of GIS databases and optimized data processing</span>
   <span style="font-size: 18px;"><span style="margin-right: 65px;"></span>software to improve efficiency and accuracy</span>
@@ -43,7 +43,7 @@ Vancouver, BC
 
 
 -   <span style="font-size: 18px;">
-<strong>Data Analyst</strong> <span style="margin-right: 450px;"></span>January 2021 - May 2021<br>
+<strong>Research Assistant</strong> <span style="margin-right: 400px;"></span>January 2021 - May 2021<br>
 Fisheries and Oceans Canada<span style="margin-right: 430px;"></span> 
 Victoria, BC
 
@@ -51,11 +51,12 @@ Victoria, BC
 <br>
 
  
- <span style="font-size: 18px;"><span style="margin-right: 55px;"></span><strong>-</strong>Developed python scripts for ocean water property data processing and provided accurate</span>
-  <span style="font-size: 18px;"><span style="margin-right: 62px;"></span>data and analysis for ocean environmental research.</span>
+ <span style="font-size: 18px;"><span style="margin-right: 50px;"></span><strong>-</strong>Developed an automated workflow using Python to convert near-real-time CTD oceanographic</span>
+  <span style="font-size: 18px;"><span style="margin-right: 55px;"></span>data into TESAC format for Global Telecommunication System (GTS) submission.</span>
 
 
- <span style="font-size: 18px;"><span style="margin-right: 53px;"></span><strong>-</strong>Developed and implemented automated QA/QC procedure for ocean water property data.</span>
+ <span style="font-size: 18px;"><span style="margin-right: 50px;"></span><strong>-</strong>Successfully processed and submitted over 200 CTD casts from multiple Pacific surveys,</span>
+   <span style="font-size: 18px;"><span style="margin-right: 55px;"></span>enhancing data quality and transmission efficiency.</span>
 
 <br><br> <br><br><br>  
 
@@ -81,13 +82,12 @@ Victoria, BC
 
  <span style="font-size: 18px;"><span style="margin-right: 53px;"></span><strong>Programming:</strong> Proficient in Python, R, and Swift, with expertise in geospatial data analysis and workflow automation. </span><br>
  
-   <span style="font-size: 18px;"><span style="margin-right: 53px;"></span><strong>Mobile App Development:</strong> Designed and developed ‘Manhole Mate’, an iOS mobile application for locating infrastructure assets 
-using municipal geodatabases.</span><br>
+   <span style="font-size: 18px;"><span style="margin-right: 53px;"></span><strong>Mobile App Development:</strong> Designed and developed ‘Manhole Mate' software for locating municipal utility infrastructure and retrieving information from geodatabases in Python and iOS (Swift)</span><br>
   
  
- <span style="font-size: 18px;"><span style="margin-right: 53px;"></span><strong>Software:</strong> ArcGIS Pro, QGIS, CloudCompare; proficient in spatial analysis and create accurate maps and plots.</span><br>
+ <span style="font-size: 18px;"><span style="margin-right: 53px;"></span><strong>Software:</strong> Proficient in Esri ArcGIS suite (ArcGIS Pro, ArcMap, ArcGIS Online, StoryMaps), QGIS, and CloudCompare. Experienced in map creation, spatial analysis, and 3D point cloud processing.</span><br>
  
-  <span style="font-size: 18px;"><span style="margin-right: 53px;"></span><strong>Communication:</strong> Excellent communication skills developed through close collaboration with clients and team members, effectively identifying and addressing their needs.</span><br>
+  <span style="font-size: 18px;"><span style="margin-right: 53px;"></span><strong>Communication:</strong> Excellent communication skills developed through close collaboration with clients and team members.</span><br>
   
 
 
