@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: C:/Users/zhangtyl.stu/OneDrive - UBC/Documents/GitHub/E-Portfolio
+  output-dir: /Users/awesometyler/Downloads/E-Portfolio
 
 website:
   title: "Tyler Zhang"

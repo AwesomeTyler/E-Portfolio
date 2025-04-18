@@ -23,7 +23,7 @@ format:
 
 ## Education
 <span style="font-size: 18px;">
-The University of British Columbia | Vancouver, BC <br> Master in Geomatics and Environmental Management | 2024 - 2025</span>
+University of British Columbia | Vancouver, BC <br> Master in Geomatics and Environmental Management | 2024 - 2025</span>
 
 <span style="font-size: 18px;">
 University of Victoria | Victoria, BC<br> B.Sc in Earth and Ocean Science | 2016 - 2021</span><br><br>
@@ -33,7 +33,7 @@ University of Victoria | Victoria, BC<br> B.Sc in Earth and Ocean Science | 2016
 Sonar Data Analyst | Aquacoustic Remote Technologies, Inc. | 2021 - 2024</span>
 
 <span style="font-size: 18px;">
-Data Analyst | Fisheries and Oceans Canada | 2021</span>
+Research Assistant | Fisheries and Oceans Canada | 2021</span>
 
 <span style="font-size: 18px;">
 Research Assistant | Fisheries and Oceans Canada | 2019</span>
