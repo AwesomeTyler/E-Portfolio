@@ -3,10 +3,20 @@ title: "Manhole Mate"
 ---
 
   
-<strong>[*A free infrastructure Locating Software*]{style="font-size: 25px;"}</strong><br>
+<strong>[*A free GIS software for locating municipal utility infrastructure*]{style="font-size: 25px;"}</strong><br>
 <strong>[*Design and developed by Tyler*]{style="font-size: 25px;"}</strong>
 
-![](images/Manhole_Mate_Page1.png){width=120%}
+
+<div style="display: flex; justify-content: center;">
+  <iframe width="800" height="450" 
+    src="https://www.youtube.com/embed/CERgPwqfzdk" 
+    title="YouTube video player" frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+  </iframe>
+</div>
+<br>
+
 [*Manhole Mate provides an efficient way to access and manage infrastructure information and accurately locate assets on both Google Maps and GIS maps*]{style="font-size: 25px;"}<br><br><br>
 
 
@@ -35,4 +45,7 @@ title: "Manhole Mate"
 <div style="display: flex; justify-content: center; gap: 20px;">
   <img src="images/Manhole_Mate_Page5.png" alt="Another Image" width="100%">
 </div>
-<strong>[*Available in IOS and Python*]{style="font-size: 25px;"}</strong><br><br><br><br><br>
+<strong>[*Available in IOS and Python*]{style="font-size: 25px;"}</strong><br><br><br>
+
+
+<br>

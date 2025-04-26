@@ -73,6 +73,16 @@ m
 ```
 [*Fig 1. Predicted and Existing Debris Hotspot in Howe Sound, BC*]{style="font-size: 25px;"}<br>
 
+
+<div style="display: flex; justify-content: center;">
+  <iframe width="800" height="450" 
+    src="https://www.youtube.com/embed/mqO5SGB_JCc" 
+    title="YouTube video player" frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+  </iframe>
+</div>
+
 ## Classification
 
  <span style="font-size: 22px;"><span style="margin-right: 30px;"></span> Multi-band satellite images (20m resolution) were merged into a true-color composite in ArcGIS Pro. Training data for six landcover types—vegetation, ocean water, river discharge, urban area, snow, and exposed rocks—were manually created, and classification was performed using Maximum Likelihood Classification and a neural network algorithm. Figure 2 presents the classified maps of the Howe Sound study area, revealing seasonal patterns: reduced snow cover in summer and lower river discharge in winter. These findings suggest that river discharge drives debris accumulation in northern and central Howe Sound primarily during summer. Additionally, there's a missing in debris hotspot along the western shoreline of Howe Sound, possibly due to lower population density and less resident reports. </span><br>

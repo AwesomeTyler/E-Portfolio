@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.555">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Tyler Zhang - Debris Hotspot Analysis in Howe Sound BC</title>
+<title>Debris Hotspot Analysis in Howe Sound BC – Tyler Zhang</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -67,29 +67,17 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <link href="site_libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet">
-
 <script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
-
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-
 <link href="site_libs/leaflet-1.3.1/leaflet.css" rel="stylesheet">
-
 <script src="site_libs/leaflet-1.3.1/leaflet.js"></script>
-
 <link href="site_libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet">
-
 <script src="site_libs/proj4-2.6.2/proj4.min.js"></script>
-
 <script src="site_libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
-
 <link href="site_libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet">
-
 <script src="site_libs/leaflet-binding-2.2.2/leaflet.js"></script>
-
 <script src="site_libs/leaflet-providers-2.0.0/leaflet-providers_2.0.0.js"></script>
-
 <script src="site_libs/leaflet-providers-plugin-2.2.2/leaflet-providers-plugin.js"></script>
-
 
 
 <link rel="stylesheet" href="styles.css">
@@ -107,7 +95,7 @@ ul.task-list li input[type="checkbox"] {
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -134,7 +122,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
-          <div class="quarto-navbar-tools">
+            <div class="quarto-navbar-tools">
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -171,11 +159,14 @@ ul.task-list li input[type="checkbox"] {
 <p><span style="font-size: 22px;"><span style="margin-right: 30px;"></span> Marine debris threatens Howe Sound, yet its accumulation remains unstudied. This research analyzes debris hotspots via supervised satellite imagery classification and models future movement using wind and river discharge </span><br> <span style="font-size: 22px;"><span style="margin-right: 30px;"></span> A total of 49 debris hotspots were identified using the debris pathway simulation model, with 20 of them overlapping existing resident-reported debris hotspots. By mapping debris pathways and identifying high-risk zones, this study aims to support conservation efforts and improve debris management strategies in the region. </span><br></p>
 <div class="cell">
 <div class="cell-output-display">
-<div class="leaflet html-widget html-fill-item" id="htmlwidget-3d877441ad6f202407ec" style="width:100%;height:464px;"></div>
-<script type="application/json" data-for="htmlwidget-3d877441ad6f202407ec">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addProviderTiles","args":["Esri.WorldImagery",null,"Basemap",{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addScaleBar","args":[{"maxWidth":100,"metric":true,"imperial":true,"updateWhenIdle":true,"position":"bottomleft"}]},{"method":"addCircleMarkers","args":[[49.68460623658193,49.67741324341807,49.66724604787633,49.64637707514791,49.6011621072612,49.65691873406533,49.65716165077307,49.61231921881947,49.58491940388751,49.66981184864743,49.62415664256596,49.55943780958133,49.52530483524614,49.53464961775931,49.58359801525839,49.5775465305852,49.56135931402018,49.51408813618882,49.52214118468663,49.52106360338489,49.49104501068536,49.44535280773664,49.43821308750559,49.43976806700178,49.46127552424311,49.45551625981917,49.42043997525905,49.48371732730156,49.51898546261322,49.55052919060447,49.48533386119858,49.45553618762521,49.40174965536261,49.42907465707518,49.51122318550065,49.49863806030732,49.47484631370057,49.4402934393111,49.38922238321619,49.40231623930898,49.3547994583712,49.34332655210007,49.37827680944665,49.40172395180566,49.40533402579138,49.37721169789783,49.34209880343645,49.35896656034458,49.36473426386765],[-123.184340126728,-123.2174391386717,-123.2502139676851,-123.2611491973931,-123.2583451939341,-123.1897854480965,-123.2091688086951,-123.2143924298702,-123.225597135607,-123.1666592190627,-123.2078625374366,-123.2347006663849,-123.2881618527044,-123.2919652612567,-123.3091931427089,-123.3296799729164,-123.3890303649845,-123.300425765085,-123.2907050725943,-123.3586105924621,-123.3354150924618,-123.3354683598911,-123.3538219198842,-123.4323098024174,-123.4194325753676,-123.3958785365937,-123.2648780632828,-123.4778365405647,-123.4906605515119,-123.41350138482,-123.2497644143714,-123.2396712389884,-123.2473739798754,-123.2750309355221,-123.466476456323,-123.3355762657238,-123.4527300276771,-123.4454198198849,-123.4920041686599,-123.4782602427916,-123.4200315486146,-123.267817206557,-123.2795339457567,-123.3790300545305,-123.310912970883,-123.3221665477343,-123.3572019986756,-123.4614184111771,-123.4823345266968],2,null,"Predicted Debris Hotspots",{"interactive":true,"className":"","stroke":true,"color":"#dece24","weight":5,"opacity":0.5,"fill":true,"fillColor":"#dece24","fillOpacity":0.8},null,null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addCircleMarkers","args":[[49.43963773270892,49.37920277848781,49.40698597835106,49.37932767637261,49.43278949550624,49.436554865119,49.62380943897881,49.45555009174758,49.39947029575277,49.68554243193748,49.4923163,49.4923163,49.6241638,49.4927445,49.49831119999999,49.3866587,49.3748915,49.383333,49.623585,49.456349,49.676464,49.524776,49.38920283316933,49.47569616341568,49.43059674445562,49.39947681823922,49.36280351802142,49.49104916069187,6366732.417110856,49.53849962459807,49.47620447811101,49.44031217724288,49.5143487646225,49.42912446410652,49.43081866959461,49.51607977735273,49.6918306,49.53849962459807,49.53849962459807,49.43571674911452,49.4456453680085,49.46797230952228,49.5581607921671,49.55971184325108,49.40534928799515,49.34332807814946],[-123.4319639575936,-123.322074846419,-123.3097947013836,-123.3219075572946,-123.2708568965423,-123.2375344097842,-123.2068069091592,-123.2396710288977,-123.4320390594459,-123.1737640439957,-123.24729,-123.24729,-123.2076605,-123.2471934,-123.3349882,-123.4879482,-123.2734905,-123.3333,-123.206594,-123.240405,-123.219865,-123.287898,-123.4921318863078,-123.3541996758037,-123.2736337629387,-123.4312999469028,-123.4598576023439,-123.3353601887088,-13724861.73337277,-123.2925306751591,-123.4538494541505,-123.4454540345006,-123.3127903385424,-123.4782682850221,-123.265854519183,-123.462127166063,-123.1823193,-123.2925306751591,-123.2925306751591,-123.4456526234011,-123.4238516285282,-123.316705787237,-123.2361184551578,-123.2347563473341,-123.310918222735,-123.2678782618908],2,null,"Resident Reported Hotspots",{"interactive":true,"className":"","stroke":true,"color":"#23ffe9","weight":5,"opacity":0.5,"fill":true,"fillColor":"#23ffe9","fillOpacity":0.8},null,null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addLayersControl","args":[[],["Predicted Debris Hotspots","Resident Reported Hotspots"],{"collapsed":false,"autoZIndex":true,"position":"topright"}]},{"method":"addLegend","args":[{"colors":["#dece24","#23ffe9"],"labels":["Predicted Debris Hotspots","Resident Reported Hotspots"],"na_color":null,"na_label":"NA","opacity":0.5,"position":"bottomright","type":"unknown","title":null,"extra":null,"layerId":null,"className":"info legend","group":null}]}],"setView":[[49.5,-123.36],10,[]],"limits":{"lat":[49.34209880343645,6366732.417110856],"lng":[-13724861.73337277,-123.1666592190627]}},"evals":[],"jsHooks":[]}</script>
+<div class="leaflet html-widget html-fill-item" id="htmlwidget-24d2e64c803ed7a21ec6" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-24d2e64c803ed7a21ec6">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addProviderTiles","args":["Esri.WorldImagery",null,"Basemap",{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addScaleBar","args":[{"maxWidth":100,"metric":true,"imperial":true,"updateWhenIdle":true,"position":"bottomleft"}]},{"method":"addCircleMarkers","args":[[49.68460623658193,49.67741324341807,49.66724604787633,49.64637707514791,49.6011621072612,49.65691873406533,49.65716165077307,49.61231921881947,49.58491940388751,49.66981184864743,49.62415664256596,49.55943780958133,49.52530483524614,49.53464961775931,49.58359801525839,49.5775465305852,49.56135931402018,49.51408813618882,49.52214118468663,49.52106360338489,49.49104501068536,49.44535280773664,49.43821308750559,49.43976806700178,49.46127552424311,49.45551625981917,49.42043997525905,49.48371732730156,49.51898546261322,49.55052919060447,49.48533386119858,49.45553618762521,49.40174965536261,49.42907465707518,49.51122318550065,49.49863806030732,49.47484631370057,49.4402934393111,49.38922238321619,49.40231623930898,49.3547994583712,49.34332655210007,49.37827680944665,49.40172395180566,49.40533402579138,49.37721169789783,49.34209880343645,49.35896656034458,49.36473426386765],[-123.184340126728,-123.2174391386717,-123.2502139676851,-123.2611491973931,-123.2583451939341,-123.1897854480965,-123.2091688086951,-123.2143924298702,-123.225597135607,-123.1666592190627,-123.2078625374366,-123.2347006663849,-123.2881618527044,-123.2919652612567,-123.3091931427089,-123.3296799729164,-123.3890303649845,-123.300425765085,-123.2907050725943,-123.3586105924621,-123.3354150924618,-123.3354683598911,-123.3538219198842,-123.4323098024174,-123.4194325753676,-123.3958785365937,-123.2648780632828,-123.4778365405647,-123.4906605515119,-123.41350138482,-123.2497644143714,-123.2396712389884,-123.2473739798754,-123.2750309355221,-123.466476456323,-123.3355762657238,-123.4527300276771,-123.4454198198849,-123.4920041686599,-123.4782602427916,-123.4200315486146,-123.267817206557,-123.2795339457567,-123.3790300545305,-123.310912970883,-123.3221665477343,-123.3572019986756,-123.4614184111771,-123.4823345266968],2,null,"Predicted Debris Hotspots",{"interactive":true,"className":"","stroke":true,"color":"#dece24","weight":5,"opacity":0.5,"fill":true,"fillColor":"#dece24","fillOpacity":0.8},null,null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addCircleMarkers","args":[[49.43963773270892,49.37920277848781,49.40698597835106,49.37932767637261,49.43278949550624,49.436554865119,49.62380943897881,49.45555009174758,49.39947029575277,49.68554243193748,49.4923163,49.4923163,49.6241638,49.4927445,49.49831119999999,49.3866587,49.3748915,49.383333,49.623585,49.456349,49.676464,49.524776,49.38920283316933,49.47569616341568,49.43059674445562,49.39947681823922,49.36280351802142,49.49104916069187,6366732.417110856,49.53849962459807,49.47620447811101,49.44031217724288,49.5143487646225,49.42912446410652,49.43081866959461,49.51607977735273,49.6918306,49.53849962459807,49.53849962459807,49.43571674911452,49.4456453680085,49.46797230952228,49.5581607921671,49.55971184325108,49.40534928799515,49.34332807814946],[-123.4319639575936,-123.322074846419,-123.3097947013836,-123.3219075572946,-123.2708568965423,-123.2375344097842,-123.2068069091592,-123.2396710288977,-123.4320390594459,-123.1737640439957,-123.24729,-123.24729,-123.2076605,-123.2471934,-123.3349882,-123.4879482,-123.2734905,-123.3333,-123.206594,-123.240405,-123.219865,-123.287898,-123.4921318863078,-123.3541996758037,-123.2736337629387,-123.4312999469028,-123.4598576023439,-123.3353601887088,-13724861.73337277,-123.2925306751591,-123.4538494541505,-123.4454540345006,-123.3127903385424,-123.4782682850221,-123.265854519183,-123.462127166063,-123.1823193,-123.2925306751591,-123.2925306751591,-123.4456526234011,-123.4238516285282,-123.316705787237,-123.2361184551578,-123.2347563473341,-123.310918222735,-123.2678782618908],2,null,"Resident Reported Hotspots",{"interactive":true,"className":"","stroke":true,"color":"#23ffe9","weight":5,"opacity":0.5,"fill":true,"fillColor":"#23ffe9","fillOpacity":0.8},null,null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addLayersControl","args":[[],["Predicted Debris Hotspots","Resident Reported Hotspots"],{"collapsed":false,"autoZIndex":true,"position":"topright"}]},{"method":"addLegend","args":[{"colors":["#dece24","#23ffe9"],"labels":["Predicted Debris Hotspots","Resident Reported Hotspots"],"na_color":null,"na_label":"NA","opacity":0.5,"position":"bottomright","type":"unknown","title":null,"extra":null,"layerId":null,"className":"info legend","group":null}]}],"setView":[[49.5,-123.36],10,[]],"limits":{"lat":[49.34209880343645,6366732.417110856],"lng":[-13724861.73337277,-123.1666592190627]}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 <p><span style="font-size: 25px;"><em>Fig 1. Predicted and Existing Debris Hotspot in Howe Sound, BC</em></span><br></p>
+<div style="display: flex; justify-content: center;">
+<p><iframe width="800" height="450" src="https://www.youtube.com/embed/mqO5SGB_JCc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""> </iframe></p>
+</div>
 </section>
 <section id="classification" class="level2">
 <h2 class="anchored" data-anchor-id="classification">Classification</h2>
@@ -261,18 +252,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -304,7 +284,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
       var filterRegex = new RegExp('/' + window.location.host + '/');
@@ -312,7 +314,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {
