@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: /Users/awesometyler/Downloads/E-Portfolio
+  output-dir: /Users/awesometyler/E-Portfolio
 
 website:
   title: "Tyler Zhang"
